@@ -3,7 +3,7 @@
 
 
 const weatherWizard = (inputCity) => {
-    const apiKey = '223366dbf60ea7c58bccffec4cc625ee';  //your API
+    const apiKey = '';  //your API
     const unit = 'metric'
 
     fetch('https://api.openweathermap.org/data/2.5/weather?q=' + inputCity + '&appid=' + apiKey + '&units=' + unit)
